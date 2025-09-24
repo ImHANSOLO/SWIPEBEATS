@@ -1,0 +1,12 @@
+[
+  {
+    "id": "t1",
+    "title": "Digital Rain",
+    "artist": "Matrix Echo",
+    "genre": ["Ambient", "Synthwave"],
+    "src": "/audio/demo.mp3",
+    "cover": "/covers/demo.jpg",
+    "lrc": "/lrc/demo.lrc",
+    "duration": 208
+  }
+]
