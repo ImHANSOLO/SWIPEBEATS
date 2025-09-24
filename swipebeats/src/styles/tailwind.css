@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sb-fly-right {
+  transform: translateX(160px) rotate(4deg) scale(0.98);
+  opacity: 0;
+  transition: transform 320ms ease, opacity 320ms ease;
+}
+
+.sb-fade-in-right {
+  animation: sbFadeRight 360ms ease both;
+}
+
+@keyframes sbFadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.sb-pane {
+  transition: transform 360ms ease, opacity 360ms ease;
+}
+
+.sb-pane--solo {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.sb-pane--split-left {
+  transform: translateX(-24px);
+  opacity: 1;
+}
+
+.sb-pane--split-right {
+  transform: translateX(24px);
+  opacity: 1;
+}

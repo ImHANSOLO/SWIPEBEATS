@@ -8,5 +8,45 @@
     "cover": "/covers/demo.jpg",
     "lrc": "/lrc/demo.lrc",
     "duration": 208
+  },
+  {
+    "id": "t2",
+    "title": "Casablanca",
+    "artist": "Breeze Quartet",
+    "genre": ["Jazz", "Lounge"],
+    "src": "",
+    "cover": "/covers/casablanca.jpg",
+    "lrc": "/lrc/casablanca.lrc",
+    "duration": 243
+  },
+  {
+    "id": "t3",
+    "title": "Sound of Silence",
+    "artist": "Evening Glow",
+    "genre": ["Chill", "Acoustic"],
+    "src": "",
+    "cover": "/covers/sound-of-silence.jpg",
+    "lrc": "/lrc/sound-of-silence.lrc",
+    "duration": 256
+  },
+  {
+    "id": "t4",
+    "title": "Love Story",
+    "artist": "Aurora Lines",
+    "genre": ["Pop", "Ballad"],
+    "src": "",
+    "cover": "/covers/love-story.jpg",
+    "lrc": "/lrc/love-story.lrc",
+    "duration": 231
+  },
+  {
+    "id": "t5",
+    "title": "Half Moon Serenade",
+    "artist": "Moonlit Keys",
+    "genre": ["Classical", "Instrumental"],
+    "src": "",
+    "cover": "/covers/half-moon-serenade.jpg",
+    "lrc": "/lrc/half-moon-serenade.lrc",
+    "duration": 268
   }
 ]
